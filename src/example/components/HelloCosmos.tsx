@@ -38,16 +38,16 @@ export const HelloCosmos: React.FC<{}> = () => {
   return <networkContext.Provider value={networkContextValue}>
     <div className="flex flex-col items-center mt-8">
       <header className="w-max py-8 container font-extrabold text-6xl">
-        <span className="mb-2">Welcome! Say,</span>
+        <span className="mb-2">Aloha! Anon,</span>
         <br/>
-        <span className="text-blue-500">"Hello Cosmos"</span>
+        <span className="text-blue-500">"Magic Cosmos"</span>
       </header>
       <section className="w-full space-y-8 py-8 flex flex-col items-center bg-[#FFF8F2]">
         <div className="flex md:flex-row sm:flex-col container md:space-x-8 sm:space-y-8">
           <div className="flex-1 flex flex-col md:items-end sm:items-center md:text-left sm:text-center">
             <div>
             <span className="font-semibold">
-              Nice one, you've generated a react dApp!
+              Nice one, you've generated a react dApp anon!
             </span>
               <br/>
               <div className="max-w-lg space-y-4">
